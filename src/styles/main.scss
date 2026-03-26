@@ -27,7 +27,9 @@
 @import './blocks/footer';
 @import './blocks/footer-menu';
 
-body {
+body,
+html {
   background: #f2f6fa;
   margin: 0;
+  overflow-x: hidden;
 }

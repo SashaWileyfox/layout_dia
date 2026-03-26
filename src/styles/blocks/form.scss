@@ -53,7 +53,19 @@
   }
 
   &__textarea {
+    min-height: 60px;
     resize: none;
+    font-family: $poppins;
+    white-space: normal;
+    word-break: break-word;
+
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #c1c7d0 transparent;
+
+    &::placeholder {
+      padding-bottom: 38px;
+    }
   }
 
   &__button {
